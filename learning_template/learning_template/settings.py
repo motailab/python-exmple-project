@@ -25,7 +25,7 @@ SECRET_KEY = ')o_1jsrd=&wmhe6d0hwg=+l)tl_=(ra*==7g(rh5k+=r!5zp!@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['motailab.pythonanywhere.com',]
 
 
 # Application definition
