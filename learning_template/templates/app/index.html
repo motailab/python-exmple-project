@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+{% extends 'app/base.html' %}
+    {% block body_block %}
+        <h1>welcome to home guys</h1>
+        <a href="{% url 'TemplateApp:other' %}">Other.html</a>
+        <a href="{% url 'TemplateApp:relative' %}">Relative.html</a>
+        <h3>Showing Context</h3>
+        <hr>
+        {{ text|lower }}
+        {{ number|add:"83" }}
+    {% endblock %}
